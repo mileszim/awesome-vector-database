@@ -115,14 +115,36 @@ Vector databases are essential tools for storing, managing, and searching large 
         - Integration with machine learning frameworks
     - Pricing and usage: Weaviate offers a free open-source version and a commercial version with additional features and managed services. Pricing for the commercial version depends on the resources needed and is available upon request.
 
+6. **NucliaDB**
+    - Description: NucliaDB is a versatile vector database designed for data scientists and machine learning experts working with HuggingFace and other data pipeline platforms. Built on top of the Tantivy library and written in Rust and Python, it is designed to efficiently index large datasets and provide multi-tenant support.
+    - Features:
+        - Compare vectors from different models
+        - Store text, files, vectors, labels, and annotations
+        - Annotation and semantic search capabilities
+        - Integration with popular NLP pipelines (HuggingFace, PyTorch, etc)
+        - Indexing and storage of fields, paragraphs, and semantic sentences
+        - Support for multiple fields and metadata, including text, HTML, Markdown, and more
+        - Distributed storage layer support with TiKV and Redis
+        - PostgreSQL storage layer support for standalone installs
+        - Blob support with S3-compatible API, GCS, and PG drivers
+        - Replication of index storage and distributed search
+    - Pricing and usage: Check out NucliaDB's website for pricing details and usage information, as well as resources like the Quickstart guide, Nuclia Docs, and Developer docs.
+
 ## Vector Database Features
 
-- Indexing Methods
-- Query Types
-- Scalability and Performance
-- Integration with Machine Learning Frameworks
-- Data Formats and Storage
-- Security and Privacy
+When evaluating vector databases, it is essential to consider several key features that can affect performance, usability, and suitability for specific use cases. Here are some of the most important features to consider:
+
+1. **Indexing Methods**: The choice of indexing method can significantly impact the search performance, accuracy, and resource consumption. Common indexing methods include Hierarchical Navigable Small World (HNSW), Inverted File with Product Quantization (IVF-PQ), and Locality-Sensitive Hashing (LSH). Different methods work better for different types of data and use cases, so it is important to select a database that supports the most suitable indexing method for your needs.
+
+2. **Query Types**: Vector databases can support various query types, such as k-nearest neighbors (k-NN), range search, or reverse nearest neighbors (RNN). Some databases also allow combining vector similarity search with other types of queries, such as filtering based on metadata or text search. Consider your specific use case and the types of queries you need to perform when selecting a database.
+
+3. **Scalability and Performance**: The ability to handle large volumes of data and high query loads is a crucial feature for vector databases. Look for databases with distributed architectures, horizontal scalability, and support for data sharding. Additionally, consider the database's performance in terms of query latency, index construction time, and resource consumption, as these factors can impact the overall user experience and the cost of running the system.
+
+4. **Integration with Machine Learning Frameworks**: Many vector database use cases involve working with machine learning models and data processing pipelines. Choose a database that offers seamless integration with popular machine learning frameworks like TensorFlow, PyTorch, or scikit-learn, and supports the data formats and preprocessing steps required for your application.
+
+5. **Data Formats and Storage**: Vector databases can support various data formats, such as dense and sparse vectors, binary data, or text. Some databases also provide support for managing metadata alongside the vector data, allowing for more advanced filtering and querying capabilities. Consider the types of data you need to store and the required storage options, such as on-disk, in-memory, or cloud-based storage.
+
+6. **Security and Privacy**: Data security and privacy are crucial considerations when working with sensitive information. Ensure that the vector database you choose offers features like data encryption, access control, and compliance with relevant regulations (e.g., GDPR, HIPAA). Additionally, consider the database's support for data backup and recovery, as well as options for isolating and managing different data versions.
 
 ## Use Cases and Applications
 
