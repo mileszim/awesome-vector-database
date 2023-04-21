@@ -115,7 +115,7 @@ Vector databases are essential tools for storing, managing, and searching large 
         - Integration with machine learning frameworks
     - Pricing and usage: Weaviate offers a free open-source version and a commercial version with additional features and managed services. Pricing for the commercial version depends on the resources needed and is available upon request.
 
-6. **NucliaDB**
+6. **[NucliaDB](https://github.com/nuclia/nucliadb)**
     - Description: NucliaDB is a versatile vector database designed for data scientists and machine learning experts working with HuggingFace and other data pipeline platforms. Built on top of the Tantivy library and written in Rust and Python, it is designed to efficiently index large datasets and provide multi-tenant support.
     - Features:
         - Compare vectors from different models
@@ -148,16 +148,34 @@ When evaluating vector databases, it is essential to consider several key featur
 
 ## Use Cases and Applications
 
-1. Image and Video Retrieval
-2. Natural Language Processing and Information Retrieval
-3. Recommender Systems
-4. Anomaly Detection
-5. Bioinformatics and Genomics
-6. Geospatial Data Analysis
+Vector databases are essential in various applications that involve working with high-dimensional data, particularly in machine learning, AI, and analytics. Some common use cases and applications include:
+
+1. **Recommendation Systems**: Vector databases enable efficient similarity search for recommendation systems, allowing for personalized content, product, or service suggestions based on user preferences or item characteristics.
+
+2. **Image and Video Retrieval**: By converting images or video frames into high-dimensional vectors using deep learning models, vector databases can facilitate efficient search and retrieval of visually similar content, such as in image search engines or content-based recommendation systems.
+
+3. **Natural Language Processing (NLP)**: Vector databases are widely used in NLP tasks, such as semantic search, document clustering, or sentiment analysis, where text data is represented as high-dimensional vectors using techniques like word embeddings or sentence embeddings.
+
+4. **Anomaly Detection**: In machine learning applications, high-dimensional data can be used to identify anomalies or outliers in datasets. Vector databases can efficiently search for similar data points and help identify unusual patterns that may indicate fraudulent activity, network intrusions, or equipment failures.
+
+5. **Molecular and Drug Discovery**: In life sciences and pharmaceutical research, vector databases can be used to search and analyze large collections of molecular structures or drug candidates, enabling researchers to identify potential therapeutic targets or drug candidates with similar properties.
 
 ## Related Resources
 
-- Tutorials and Guides
+1. **Machine Learning Frameworks**: Popular machine learning frameworks like TensorFlow, PyTorch, or scikit-learn are often used in conjunction with vector databases for data preprocessing, feature extraction, and model training. These frameworks can be integrated with vector databases to enable seamless end-to-end machine learning pipelines.
+  * [fill out](here)
+
+2. **Vector Embedding Libraries**: Libraries like Gensim, FastText, or spaCy provide tools for generating high-dimensional vector representations of various data types, such as text, images, or graphs. These embeddings can be stored and searched efficiently using vector databases.
+  * [fill out](here)
+
+3. **Data Processing and Visualization Tools**: Tools like Pandas, Dask, or Apache Arrow can be used to preprocess and manipulate large datasets before storing them in vector databases. Visualization tools like Matplotlib, Seaborn, or Plotly can help analyze and visualize high-dimensional data and query results.
+  * [fill out](here)
+
+4. **Distributed Computing Frameworks**: In some cases, vector databases can be integrated with distributed computing frameworks like Apache Spark, Hadoop, or Dask to enable large-scale data processing and analytics across multiple nodes or clusters.
+  * [fill out](here)
+
+5. **Data Storage and Infrastructure**: Cloud-based storage solutions like Amazon S3, Google Cloud Storage, or Microsoft Azure Blob Storage can be used in conjunction with vector databases to store large volumes of data. Additionally, containerization and orchestration tools like Docker and Kubernetes can help deploy and manage vector databases in various environments, including on-premises, cloud, or hybrid deployments.
+  * [fill out](here)
 - Research Papers and Articles
 - Benchmarking and Evaluation
 - Community and Support
