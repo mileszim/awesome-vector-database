@@ -6,7 +6,18 @@ A curated list of awesome vector databases for storing, managing, and searching 
 
 - [Introduction](#introduction)
 - [Open Source Databases](#open-source-databases)
+    - [Faiss](#faiss)
+    - [Annoy](#annoy)
+    - [Milvus](#milvus)
+    - [HNSWLIB](#hnswlib)
+    - [NMSLIB](#nmslib)
 - [Commercial Databases](#commercial-databases)
+    - [Pinecone](#pinecone)
+    - [Vespa](#vespa)
+    - [Vector.ai](#vectorai)
+    - [Qdrant](#qdrant)
+    - [Weaviate](#weaviate)
+    - [NucliaDB]
 - [Vector Database Features](#vector-database-features)
 - [Use Cases and Applications](#use-cases-and-applications)
 - [Related Resources](#related-resources)
