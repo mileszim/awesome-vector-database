@@ -11,6 +11,7 @@ A curated list of awesome vector databases for storing, managing, and searching 
     - [Milvus](#milvus)
     - [HNSWLIB](#hnswlib)
     - [NMSLIB](#nmslib)
+    - [Cottontail DB](#cottontaildb)
 - [Commercial Databases](#commercial-databases)
     - [Pinecone](#pinecone)
     - [Vespa](#vespa)
@@ -74,6 +75,16 @@ Vector databases are essential tools for storing, managing, and searching large 
         - Python, C++, and Java bindings
     - Installation and usage: NMSLIB can be installed using pip or built from source, and it offers a Python API with examples and documentation available on the project's GitHub page.
 
+6. <a name="cottontaildb"></a>**[Cottontail DB](https://github.com/vitrivr/cottontaildb)**
+   - Description: Cottontail DB is a column store aimed at multimedia retrieval. It allows for classical boolean as well as vector-space retrieval (nearest neighbour search) used in similarity search using a unified data and query model.
+   - Features:
+        - Indexing methods: VAF, PQ, LSH, and more
+        - Large range of distance functions
+        - Arithmetic vector operations
+        - Free-text search
+        - Relational data entities for metadata
+        - gRPC interface with per-built clients for Java/Kotlin and Python
+   
 ## Commercial Databases
 
 1. <a name="pinecone"></a>**[Pinecone](https://www.pinecone.io)**
