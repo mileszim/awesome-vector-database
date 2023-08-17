@@ -12,6 +12,7 @@ A curated list of awesome vector databases for storing, managing, and searching 
     - [HNSWLIB](#hnswlib)
     - [NMSLIB](#nmslib)
     - [Cottontail DB](#cottontaildb)
+    - [Vexvaut](#vexvault)
 - [Commercial Databases](#commercial-databases)
     - [Pinecone](#pinecone)
     - [Vespa](#vespa)
@@ -84,6 +85,16 @@ Vector databases are essential tools for storing, managing, and searching large 
         - Free-text search
         - Relational data entities for metadata
         - gRPC interface with per-built clients for Java/Kotlin and Python
+
+6. <a name="vexvault"></a>**[Vexvault](https://github.com/xyntopia/vexvault)**
+   - Description: Vexvault is a document storage system which is 100% browser based. Vexvault is designed to make your files and data accessible to AI applications like ChatGPT, all while ensuring the users privacy and security. It tries to be as easy to integrate and use as possible.
+   - Features:
+        - 100% browser based
+        - based on HNSWlib + indexeddb
+        - zero-cost
+        - scalability by pushing embedding calculation to the edge
+        - fast, because it can omit the network
+        - large amount of storage through use of indexedb
    
 ## Commercial Databases
 
