@@ -163,6 +163,17 @@ Vector databases are essential tools for storing, managing, and searching large 
         - Replication of index storage and distributed search
     - Pricing and usage: Check out NucliaDB's website for pricing details and usage information, as well as resources like the Quickstart guide, Nuclia Docs, and Developer docs.
 
+7. <a name="rivestack"></a>**[Rivestack](https://rivestack.io)**
+    - Description: Rivestack is a managed PostgreSQL service with built-in pgvector for AI vector search workloads. It provides HNSW indexing on NVMe storage with sub-millisecond query latency, and includes a SQL editor that converts natural language search queries to vector embeddings for easy testing.
+    - Features:
+        - Managed pgvector with HNSW indexing
+        - SQL editor with automatic embedding generation for search queries
+        - NVMe storage for fast vector operations
+        - Daily snapshots and 14-day point-in-time recovery
+        - High availability with automatic failover
+        - Free tier available (no credit card required)
+    - Pricing and usage: Rivestack offers a free tier with 500 MB storage. Paid plans available for production workloads with dedicated resources. Available in US and EU regions.
+
 ## Vector Database Features
 
 When evaluating vector databases, it is essential to consider several key features that can affect performance, usability, and suitability for specific use cases. Here are some of the most important features to consider:
