@@ -169,10 +169,9 @@ Vector databases are essential tools for storing, managing, and searching large 
         - Managed pgvector with HNSW indexing
         - SQL editor with automatic embedding generation for search queries
         - NVMe storage for fast vector operations
-        - Daily snapshots and 14-day point-in-time recovery
         - High availability with automatic failover
         - Free tier available (no credit card required)
-    - Pricing and usage: Rivestack offers a free tier with 500 MB storage. Paid plans available for production workloads with dedicated resources. Available in US and EU regions.
+    - Pricing and usage: Rivestack offers a free tier with 2 GB storage. Paid plans available for production workloads with dedicated resources. Available in US and EU regions.
 
 ## Vector Database Features
 
