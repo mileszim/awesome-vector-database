@@ -96,6 +96,15 @@ Vector databases are essential tools for storing, managing, and searching large 
         - fast, because it can omit the network
         - large amount of storage through use of indexedb
    
+7. <a name="dakera"></a>**[Dakera](https://github.com/dakera-ai/dakera-mcp)**
+   - Description: Self-hosted agent memory server with HNSW approximate nearest neighbor search. RocksDB-backed persistence, decay-weighted recall, multi-agent namespacing, MCP-native.
+   - Features:
+        - HNSW approximate nearest neighbor indexing
+        - RocksDB-backed durable persistence
+        - Decay-weighted recall for relevance over time
+        - Multi-agent namespacing and cross-agent knowledge sharing
+        - MCP-native interface with Python, JS, Rust, Go SDKs
+
 ## Commercial Databases
 
 1. <a name="pinecone"></a>**[Pinecone](https://www.pinecone.io)**
