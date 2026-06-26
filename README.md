@@ -13,6 +13,7 @@ A curated list of awesome vector databases for storing, managing, and searching 
     - [NMSLIB](#nmslib)
     - [Cottontail DB](#cottontaildb)
     - [Vexvaut](#vexvault)
+    - [infino](#infino)
 - [Commercial Databases](#commercial-databases)
     - [Pinecone](#pinecone)
     - [Vespa](#vespa)
@@ -96,6 +97,17 @@ Vector databases are essential tools for storing, managing, and searching large 
         - fast, because it can omit the network
         - large amount of storage through use of indexedb
    
+7. <a name="infino"></a>**[infino](https://github.com/infino-ai/infino)**
+    - Description: infino is an open-source embedded retrieval engine that runs SQL, full-text (BM25), vector, and hybrid search over a single copy of your data, stored as Apache Parquet on local disk or object storage. It runs in-process, with no separate vector database or search cluster to operate.
+    - Features:
+        - Hybrid search: BM25 keyword and vector similarity fused in a single query
+        - SQL, full-text, and vector over one copy of the data (no separate stores to keep in sync)
+        - Object-storage-native: data stored as standard Apache Parquet (local, S3, or Azure)
+        - Embedded and in-process: no server to deploy
+        - Rust core with Python and Node.js bindings
+        - Apache-2.0 licensed
+    - Installation and usage: Install with `pip install infino` (Python), `npm install @infino-ai/infino` (Node.js), or `cargo add infino` (Rust). Documentation and examples are available in the official repository.
+
 ## Commercial Databases
 
 1. <a name="pinecone"></a>**[Pinecone](https://www.pinecone.io)**
