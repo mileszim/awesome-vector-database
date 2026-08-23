@@ -20,6 +20,7 @@ A curated list of awesome vector databases for storing, managing, and searching 
     - [Qdrant](#qdrant)
     - [Weaviate](#weaviate)
     - [NucliaDB](#nucliadb)
+    - [Oracle AI Database](#oracle-ai-database)
 - [Vector Database Features](#vector-database-features)
 - [Use Cases and Applications](#use-cases-and-applications)
 - [Related Resources](#related-resources)
@@ -162,6 +163,14 @@ Vector databases are essential tools for storing, managing, and searching large 
         - Blob support with S3-compatible API, GCS, and PG drivers
         - Replication of index storage and distributed search
     - Pricing and usage: Check out NucliaDB's website for pricing details and usage information, as well as resources like the Quickstart guide, Nuclia Docs, and Developer docs.
+
+7. <a name="oracle-ai-database"></a>**[Oracle AI Database](https://www.oracle.com/database/ai-vector-search/)**
+    - Description: Oracle AI Database provides native vector search capabilities for AI applications, including semantic search and retrieval-augmented generation (RAG).
+    - Features:
+        - Native vector storage and similarity search
+        - Python SDK for vector search and RAG applications
+        - Integration with embedding models and AI workflows
+    - Installation and usage: The [`oracle-vecdb`](https://pypi.org/project/oracle-vecdb/) Python SDK can be installed with `pip install oracle-vecdb`. Examples and documentation are available in the [official GitHub repository](https://github.com/oracle/vecdb-python-sdk).
 
 ## Vector Database Features
 
