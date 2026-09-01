@@ -20,6 +20,7 @@ A curated list of awesome vector databases for storing, managing, and searching 
     - [Qdrant](#qdrant)
     - [Weaviate](#weaviate)
     - [NucliaDB](#nucliadb)
+    - [TopK](#topk)
 - [Vector Database Features](#vector-database-features)
 - [Use Cases and Applications](#use-cases-and-applications)
 - [Related Resources](#related-resources)
@@ -162,6 +163,19 @@ Vector databases are essential tools for storing, managing, and searching large 
         - Blob support with S3-compatible API, GCS, and PG drivers
         - Replication of index storage and distributed search
     - Pricing and usage: Check out NucliaDB's website for pricing details and usage information, as well as resources like the Quickstart guide, Nuclia Docs, and Developer docs.
+
+7. <a name="topk"></a>**[TopK](https://topk.io)**
+    - Description: TopK is a search engine for accuracy-critical AI applications: hybrid search, multi-vector retrieval, custom ranking, and managed inference in one API. It is written in Rust and separates storage from compute, keeping the corpus on object storage with stateless query nodes, which is aimed at RAG and agent retrieval where both relevance and cost matter. (Not to be confused with top-k, the ranking concept.)
+    - Features:
+        - Hybrid search: dense vector, sparse/keyword (BM25), and semantic reranking in a single query
+        - Multi-vector retrieval with MaxSim scoring for late-interaction models such as ColBERT and ColPali
+        - Custom ranking expressions: combine vector scores, BM25 scores, and metadata fields in a user-defined formula
+        - Filtering applied during search rather than as a post-processing step
+        - Managed inference: embedding and reranking models hosted alongside the index, so no separate embedding service is required
+        - Python, JavaScript/TypeScript, and Rust SDKs, plus a CLI and an Elasticsearch-compatible query layer ([topk-io/topk](https://github.com/topk-io/topk), MIT)
+        - Bring Your Own Cloud deployment on AWS, GCP, or Azure, in addition to the managed cloud
+        - SOC 2 Type I compliance and a 99.9% availability SLA
+    - Pricing and usage: TopK is usage-based and billed monthly, with $10 in free credits and no credit card required to start. Documentation is at [docs.topk.io](https://docs.topk.io), and an open benchmark harness is published at [topk-io/bench](https://github.com/topk-io/bench).
 
 ## Vector Database Features
 
