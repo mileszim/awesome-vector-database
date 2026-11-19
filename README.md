@@ -13,6 +13,7 @@ A curated list of awesome vector databases for storing, managing, and searching 
     - [NMSLIB](#nmslib)
     - [Cottontail DB](#cottontaildb)
     - [Vexvaut](#vexvault)
+    - [Axonio](#axonio)
 - [Commercial Databases](#commercial-databases)
     - [Pinecone](#pinecone)
     - [Vespa](#vespa)
@@ -96,6 +97,14 @@ Vector databases are essential tools for storing, managing, and searching large 
         - fast, because it can omit the network
         - large amount of storage through use of indexedb
    
+7. <a name="axonio"></a>**[Axonio](https://github.com/hackcat29/ClawDB)**
+    - Description: Apache-2.0 memory engine for AI agents with vector and graph retrieval.
+    - Features:
+        - Persistent memories accessed over HTTP, SDKs, or MCP
+        - Memory fork, diff, merge, and discard operations
+        - Self-hosted engine and a hosted service
+    - Installation and usage: See the [documentation](https://axonio.xyz/docs/) and [MCP setup guide](https://axonio.xyz/integrations/mcp-memory-server/).
+
 ## Commercial Databases
 
 1. <a name="pinecone"></a>**[Pinecone](https://www.pinecone.io)**
